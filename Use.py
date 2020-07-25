@@ -3,3 +3,5 @@ b: int = 1
 
 print(a)
 print(b)
+
+c: str = 1
