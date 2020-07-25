@@ -36,3 +36,8 @@ print(float("inf"))
 print(float("-inf"))
 
 print(3.0 + 1)
+
+print(None)
+
+a = None
+print(a is None)
