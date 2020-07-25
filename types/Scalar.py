@@ -79,6 +79,10 @@ print(bool([]))  # 빈 Collection은 False
 
 print(bool({}))  # 빈 Collection은 False
 
+print(bool(set()))  # 빈 Collection은 False
+
 print(bool([0]))
 
 print(bool({"a": 0}))
+
+print(bool({1}))
