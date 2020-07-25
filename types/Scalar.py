@@ -34,3 +34,5 @@ print(float("nan"))
 print(float("inf"))
 
 print(float("-inf"))
+
+print(3.0 + 1)
