@@ -1,4 +1,7 @@
 # int
+print("""=========================
+int 타입
+=========================""")
 print(int(0b10))
 
 print(int())
@@ -12,7 +15,9 @@ print(int(True))
 print(int("1000", 2))
 
 # float
-
+print("""=========================
+float 타입
+=========================""")
 print(3.125)
 
 print(3e+8)
@@ -37,9 +42,31 @@ print(float("-inf"))
 
 print(3.0 + 1)
 
+# None
+print("""=========================
+None 타입
+=========================""")
 print(None)
 
 a = None
 print(a is None)
 
 print(type(None))
+
+# bool
+print("""=========================
+bool 타입
+=========================""")
+print(bool(0))  # 0만 False
+
+print(bool(1))
+
+print(bool(2))
+
+print(bool(-1))
+
+print(bool(0.0))  # 0.0만 False
+
+print(bool(0.201))
+
+print(bool(-1.5))
