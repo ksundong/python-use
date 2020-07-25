@@ -41,3 +41,5 @@ print(None)
 
 a = None
 print(a is None)
+
+print(type(None))
