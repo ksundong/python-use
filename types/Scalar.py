@@ -12,3 +12,19 @@ print(int(True))
 print(int("1000", 2))
 
 # float
+
+print(3.125)
+
+print(3e+8)
+
+print(3e8)
+
+print(1.672e+2)
+
+print(16.16e-10)
+
+print(float(7))
+
+print(float("1.618"))
+
+print(float(False))
