@@ -70,3 +70,15 @@ print(bool(0.0))  # 0.0만 False
 print(bool(0.201))
 
 print(bool(-1.5))
+
+print(bool(""))  # empty string만 False
+
+print(bool("abcde"))
+
+print(bool([]))  # 빈 Collection은 False
+
+print(bool({}))  # 빈 Collection은 False
+
+print(bool([0]))
+
+print(bool({"a": 0}))
