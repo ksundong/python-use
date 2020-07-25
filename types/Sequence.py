@@ -9,5 +9,3 @@ print(id('aaa'))
 print(id(a))
 
 # tuple과 bytes도 Immutable하다.
-
-
