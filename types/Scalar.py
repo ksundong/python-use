@@ -28,3 +28,9 @@ print(float(7))
 print(float("1.618"))
 
 print(float(False))
+
+print(float("nan"))
+
+print(float("inf"))
+
+print(float("-inf"))
